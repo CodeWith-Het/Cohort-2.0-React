@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
-  base: "/Cohort-2.0-React/class3-task/", 
+  base:'/class3-task/'
 })
