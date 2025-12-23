@@ -106,12 +106,12 @@ const Card = (props) => {
 
     <div className='flex gap-5 mt-5'>
     <div className='flex gap-2 items-center'>
-      <i class="ri-user-3-fill"></i>
+      <i className="ri-user-3-fill"></i>
       <h1>{props.followersCount}</h1>
     </div>
 
     <div className='flex gap-2 items-center'>
-      <i class="ri-chat-follow-up-fill"></i>
+      <i className="ri-chat-follow-up-fill"></i>
       <h1>{props.followingCount}</h1>
     </div>
      
