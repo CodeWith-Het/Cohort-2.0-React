@@ -6,7 +6,7 @@ import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter basename="/Cohort-2.0-React/class3-task">
+    <BrowserRouter basename="/Cohort-2.0-React/class3-task/">
       <App />
     </BrowserRouter>
   </StrictMode>,
