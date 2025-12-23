@@ -339,7 +339,7 @@ const App = () => {
          bio = {elem.bio}
          followersCount = {elem.followersCount}
          followingCount = {elem.followingCount}
-         image = {elem.image}
+         image = {elem.imag}
           />
       })}
     </div>
