@@ -29,7 +29,7 @@ const totalAmount = expands.reduce((sum,elem)=>{
 
   return (
     <div className='h-screen w-screen bg-black flex flex-col items-center justify-center gap-5'>
-      <h1 className='text-white font-extrabold text-4xl '>Kharcha Diary</h1>
+      <h1 className='text-white font-extrabold text-4xl '>Home Diary only 1 ruppes</h1>
       < div className='h-fit w-[50%] bg-gray-300 '>
         <form>
           <input 
@@ -39,7 +39,7 @@ const totalAmount = expands.reduce((sum,elem)=>{
           value={titel}
         type="text" 
         className='border-2 w-[40%] mt-5 ml-5 px-2 py-2' 
-        placeholder='Enter your kharcha (e.g. chai,sugar)'
+        placeholder='Enter your Khana aur pina (e.g. chai,sugar)'
         />
 
         <input 
@@ -49,7 +49,7 @@ const totalAmount = expands.reduce((sum,elem)=>{
         value={amount}
         type="number" 
         className='border-2 w-[40%] mt-5 ml-3 px-2 py-2' 
-        placeholder='Enter your kharcha (e.g. chai,sugar)'
+        placeholder='Enter of amount (e.g. chai,sugar)'
         />
 
         <button 
@@ -79,7 +79,7 @@ const totalAmount = expands.reduce((sum,elem)=>{
           })}
       </section>
     
-          <h4 className='px-2 py-2 text-center w-[100%] h-10 bg-white mt-5 '>Total Kharch:{totalAmount}</h4>
+          <h4 className='px-2 py-2 text-center w-[100%] h-10 bg-white mt-5 '>Total Khana And Pina:{totalAmount}</h4>
 
       </div>
     </div>
